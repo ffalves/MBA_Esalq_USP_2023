@@ -8,7 +8,8 @@ packages <- c('tidytext',
              'stringr',
              'SnowballC',
              'widyr',
-             'janeaustenr')
+             'janeaustenr',
+             'treemapify')
 
 
 # At ESALQ/USP classes it is normal to use a function to check if we have all the libraries installed
