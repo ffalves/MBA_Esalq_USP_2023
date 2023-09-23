@@ -9,7 +9,9 @@ library("SnowballC")
 library('treemapify')
 library('ggplot2')
 
-### First part: some exercises with portuguese-poems dataset
+### In this part I did different analyzes of the class' because I wanted
+### experiment more and working more on the code
+### 2 outputs are save in files folder if you want to compare with your results
 poems = read.csv('./files/portuguese-poems.csv')
 poems = as_tibble(poems)
 
