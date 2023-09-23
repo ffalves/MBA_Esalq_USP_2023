@@ -62,3 +62,4 @@ sentences %>% with(wordcloud::wordcloud(word, n, random.order = FALSE, max.words
 # with stemming
 sentences_stem %>% with(wordcloud::wordcloud(stem, n, random.order = FALSE, max.words = 50, colors = pal))
 
+

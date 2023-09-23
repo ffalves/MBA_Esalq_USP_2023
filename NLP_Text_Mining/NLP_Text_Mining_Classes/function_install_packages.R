@@ -12,6 +12,7 @@ packages <- c('tidytext',
              'treemapify')
 
 
+
 # At ESALQ/USP classes it is normal to use a function to check if we have all the libraries installed
 if ( sum (as.numeric ( !packages %in% installed.packages() )) != 0){
   installer = packages [!packages %in% installed.packages()]

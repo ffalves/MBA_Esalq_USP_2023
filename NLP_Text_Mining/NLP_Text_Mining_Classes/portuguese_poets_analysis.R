@@ -60,8 +60,3 @@ max_words = max %>% with(wordcloud(word_author, n, min.freq = 10,
                                    random.color = TRUE))
 
 
-
-
-
-
-
